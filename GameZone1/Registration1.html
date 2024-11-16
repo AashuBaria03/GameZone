@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Event Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" action="Regi1.php" method="post" enctype="multipart/form-data">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+        
+            <label for="enrollmentNumber">Enrollment Number:</label>
+            <input type="text" id="enrollmentNumber" name="enrollmentNumber" required>
+        
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <label for="game">Select Game:</label>
+            <select id="game" name="game" required>
+                <option value="bgmi">BGMI</option>
+                <option value="gtaV">GTA V</option>
+            </select>
+        
+            <label for="file">Upload Profile Picture:</label>
+            <input type="file" id="file" name="file" accept="image/*">
+        
+            <button type="submit">Register</button>
+        </form>
+        
+    </div>
+    <script src="Registration.js"></script>
+</body>
+</html>
