@@ -1,20 +1,37 @@
-# GameZone
+<div align="center">
+  <h1 align="center">GameZone 🎮</h1>
+  <p align="center">
+    A modern and responsive web application for gaming enthusiasts to discover, filter, and register for gaming tournaments.
+  </p>
+</div>
 
-GameZone is a modern and responsive web application designed for gaming enthusiasts to discover, filter, and register for gaming tournaments. It provides a user-friendly interface to browse featured tournaments and upcoming events.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Font Awesome](https://img.shields.io/badge/Font%20Awesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)
 
-## Features
+## 📝 Table of Contents
+- [About the Project](#about-the-project)
+- [Key Features](#-key-features)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Author](#-author)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-- **Featured Tournaments:** A section showcasing popular game tournaments like PUBG, GTA-V, Spider-Man 2, and Valorant with detailed descriptions and rules.
-- **Event Filtering:** Users can filter upcoming gaming events based on:
-  - Game type
-  - Entry fee (Free/Paid)
-  - Skill level (Beginner, Intermediate, Pro)
-  - Region (North America, Europe, Asia)
-- **User Authentication:** Includes forms for Login, Sign Up, and Forgot Password.
-- **Event Registration:** A modal-based registration form to sign up for events.
-- **Responsive Design:** The layout is designed to work on various screen sizes.
+## 🧐 About the Project
 
-## Project Structure
+GameZone provides a user-friendly interface to browse featured tournaments and upcoming events.
+
+## ✨ Key Features
+
+- **Featured Tournaments:** 🏆 A section showcasing popular game tournaments like PUBG, GTA-V, Spider-Man 2, and Valorant with detailed descriptions and rules.
+- **Event Filtering:** 🔍 Users can filter upcoming gaming events based on game type, entry fee, skill level, and region.
+- **User Authentication:** 🔐 Includes forms for Login, Sign Up, and Forgot Password.
+- **Event Registration:** 📝 A modal-based registration form to sign up for events.
+- **Responsive Design:** 📱 The layout is designed to work on various screen sizes.
+
+## 📁 Project Structure
 
 The project is organized into the following directories and files:
 
@@ -32,12 +49,7 @@ GameZone/
 └── README.md             # Project documentation
 ```
 
-## Technologies Used
-
-- **Frontend:** HTML, CSS, JavaScript
-- **Icons:** Font Awesome for iconography.
-
-## Getting Started
+## 🚀 Getting Started
 
 To run this project locally, simply open the `index.html` file in your web browser.
 
@@ -51,6 +63,23 @@ To run this project locally, simply open the `index.html` file in your web brows
     ```
 3.  Open `index.html` in your favorite browser.
 
-## Author
+## ✍️ Author
 
-This project was created by [Aashu Baria](https://github.com/AashuBaria03). 
+This project was created by [Aashu Baria](https://github.com/AashuBaria03).
+
+## 🤝 Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information. 
