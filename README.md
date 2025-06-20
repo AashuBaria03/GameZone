@@ -1,57 +1,56 @@
-🎮 E-Sport Game Organization Website
-Welcome to the E-Sport Game Organization Website, a comprehensive, fully responsive platform designed to revolutionize the organization and participation of e-sport tournaments. Built with HTML, CSS, JavaScript, PHP, and SQL, this project is the perfect fusion of dynamic functionality and engaging user experience. 🌟
+# GameZone
 
-📜 Table of Contents
-About the Project
-Features
-Tech Stack
-Screenshots
-Getting Started
-Contributing
-License
-Contact
-🌟 About the Project
-The E-Sport Game Organization Website is a meticulously crafted platform designed to cater to e-sports enthusiasts, event organizers, and competitive gamers.
+GameZone is a modern and responsive web application designed for gaming enthusiasts to discover, filter, and register for gaming tournaments. It provides a user-friendly interface to browse featured tournaments and upcoming events.
 
-💡 Key Highlights:
+## Features
 
-Showcase upcoming tournaments in an attractive and organized format.
-A secure login and signup system for personalized user experiences.
-Dynamic event registration and management powered by a robust SQL database.
-Fully responsive design, offering seamless usability on desktops, tablets, and smartphones.
-Integrated forgot password feature for user convenience.
-This project demonstrates the power of modern web technologies while fostering a vibrant gaming community.
+- **Featured Tournaments:** A section showcasing popular game tournaments like PUBG, GTA-V, Spider-Man 2, and Valorant with detailed descriptions and rules.
+- **Event Filtering:** Users can filter upcoming gaming events based on:
+  - Game type
+  - Entry fee (Free/Paid)
+  - Skill level (Beginner, Intermediate, Pro)
+  - Region (North America, Europe, Asia)
+- **User Authentication:** Includes forms for Login, Sign Up, and Forgot Password.
+- **Event Registration:** A modal-based registration form to sign up for events.
+- **Responsive Design:** The layout is designed to work on various screen sizes.
 
-🚀 Features
-✨ Dynamic Event Cards:
+## Project Structure
 
-Each e-sport event is displayed as an individual card with:
-Game Title
-Event Date
-Entry Fee
-Skill Level
-🎯 Registration System:
+The project is organized into the following directories and files:
 
-Dedicated registration sections for each event.
-Effortless user signup and event participation.
-🔒 User Authentication:
+```
+GameZone/
+├── GameImg/              # Images for game cards
+├── LogoImg/              # Social media and search icons
+├── MainImg/              # Background images
+├── index.html            # Main landing page
+├── Registration.html     # User registration page
+├── styles.css            # Main stylesheet for index.html
+├── Registration.css      # Stylesheet for Registration.html
+├── script.js             # JavaScript for index.html interactivity
+├── Registration.js       # JavaScript for Registration.html
+└── README.md             # Project documentation
+```
 
-Secure login and signup system.
-Forgot Password feature for recovering credentials.
-🌐 Responsive Design:
+## Technologies Used
 
-Fully optimized for all devices: desktops, tablets, and smartphones.
-🌈 Interactive UI:
+- **Frontend:** HTML, CSS, JavaScript
+- **Icons:** Font Awesome for iconography.
 
-Smooth animations and hover effects for a captivating user experience.
-💾 Database Integration:
+## Getting Started
 
-Efficient SQL database for managing user and event data, ensuring secure and robust functionality.
-🛠️ Tech Stack
-HTML5: Structuring the website content.
-CSS3: Styling and responsive design.
-JavaScript: Adding interactivity and animations.
-PHP: Server-side functionality and data processing.
-SQL: Managing user and event data using XAMPP.
-⭐ Show Your Support
-If you find this project useful, please consider giving it a star. Your support inspires further development! 🌟
+To run this project locally, simply open the `index.html` file in your web browser.
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/GameZone.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd GameZone
+    ```
+3.  Open `index.html` in your favorite browser.
+
+## Author
+
+This project was created by [Aashu Baria](https://github.com/AashuBaria03). 
